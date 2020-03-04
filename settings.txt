@@ -1,7 +1,7 @@
 2
 grimm,/dev/ttyUSB0,9600,N,8,n
 cpc3772,/dev/ttyUSB1,9600,N,8,n
-./data
+./data/
 ## Only the first lines are processed.
 1. <Number of serial ports to handle>
 2 <prefix for this serial data>,<SERIAL PORT ADDRESS>

@@ -1,0 +1,9 @@
+2020/03/04 11:07:52 GMT Logging starts
+grimm,cpc3772
+/dev/ttyUSB0,/dev/ttyUSB1
+9600,9600
+N,N
+[,8,,, ,8,]
+[,b,',\,n,',,, ,b,',\,n,',]
+./data/
+Opening port /dev/ttyUSB0
