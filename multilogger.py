@@ -2,7 +2,6 @@
 # Load the libraries
 import serial # Serial communications
 import time # Timing utilities
-import subprocess # Shell utilities ... compressing data files
 import os,sys           # OS utils to keep working directory
 
 # Change working directory to the script's path
@@ -87,6 +86,7 @@ current_file.close()
 # Start the logging
 while True:
     for i in range(nports):
+        print(ports[i])
         try:
             # Hacks to work with custom end of line
             leneol = len(eols[i])
@@ -104,6 +104,7 @@ while True:
             timestamp = time.strftime("%Y/%m/%d %H:%M:%S GMT",rec_time)
             # Build the line to save to file
             file_line = timestamp + "\t" + line
+            print(file_line)
             # Save it to the appropriate file
             current_file_name = datapath + prefixes[i] + time.strftime("_%Y%m%d.txt",rec_time)
             current_file = open(current_file_name,"a")
