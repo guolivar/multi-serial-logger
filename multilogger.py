@@ -77,6 +77,7 @@ for i in range(nports):
     ser[i].flushInput()
     ser[i].flushOutput()
     current_file.write("Port " + ports[i] + " flushed\n")
+    print("Port " + ports[i] + " flushed")
 
 # Close the settings file
 settings_file.close()
@@ -92,6 +93,7 @@ while True:
             leneol = len(eols[i])
             bline = bytearray()
             # Get a line of data from the port
+            ser[i].
             while True:
                 c = ser[i].read(1)
                 bline += c
