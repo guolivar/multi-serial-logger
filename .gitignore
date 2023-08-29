@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore the secrets
+_secret*
+
+# Ignore VSCode settings ... security
+settings.json
