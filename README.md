@@ -6,9 +6,9 @@ Simple serial logger that listens to an arbitrary number of serial ports and tim
 
 1. install Python (>3.5) [Start here](https://www.python.org/about/gettingstarted/).
 2. Install the required modules:
-    - **pyserial** following [these instructions](https://github.com/pyserial/pyserial).
-    - **boto3** to interact with AWS. Following [these instructions](https://pypi.org/project/boto3/)
-    - **pandas** to parse text files. Following [these instructions](https://pypi.org/project/pandas/)
+    - **pyserial** following [these instructions](https://pypi.org/project/pyserial/).
+    - **boto3** to interact with AWS. Following [these instructions](https://pypi.org/project/boto3/).
+    - **pandas** to parse text files. Following [these instructions](https://pypi.org/project/pandas/).
 3. Download a ZIP file with this repository [from here](https://github.com/guolivar/multi-serial-logger/archive/master.zip) or if you're familiar with Git, clone this repository to your system.
 
 ## Use
