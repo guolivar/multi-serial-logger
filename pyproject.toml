@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multi-serial-logger"
+version = "0.1.0"
+description = "Simple serial logger that listens to an arbitrary number of serial ports"
+authors = [
+  { name = "Gustavo Olivares" },
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "pyserial",
+    "boto3",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+multi-serial-logger = "multiseriallogger.__main__:main"
+
+[project.urls]
+"Homepage" = "https://github.com/guolivar/multi-serial-logger"
+"Bug Tracker" = "https://github.com/guolivar/multi-serial-logger/issues"

@@ -1,0 +1,10 @@
+2020/03/10 21:40:34 GMT Logging starts
+grimm
+/dev/ttyUSB0
+9600
+N
+[,8,]
+[,b,',\,n,',]
+./data/
+Opening port /dev/ttyUSB0
+Port /dev/ttyUSB0 flushed

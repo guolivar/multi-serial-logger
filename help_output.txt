@@ -1,0 +1,7 @@
+usage: multi-serial-logger [-h] [--config CONFIG]
+
+Multi-Serial Logger
+
+options:
+  -h, --help       show this help message and exit
+  --config CONFIG  Path to the configuration file (default: settings.txt)
