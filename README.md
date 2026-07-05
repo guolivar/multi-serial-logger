@@ -1,5 +1,9 @@
 # MUlti-SErial-LOgger
 
+> **REPOSITORY ARCHIVED — This repository contains exposed credentials in its git history and is no longer maintained.**
+> **Active development has moved to: https://github.com/guolivar/muselo**
+> See [TODO.md](TODO.md) for required cleanup actions.
+
 Simple serial logger that listens to an arbitrary number of serial ports and timestamps and logs the incoming messages.
 
 ## Installation
